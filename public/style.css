@@ -50,4 +50,34 @@ body button + button {
   margin-left: 1rem;
 }
 
+#timers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#timers div {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+}
+#timers * {
+  min-width: 40vw;
+  text-align: center;
+}
+
+#actions {
+  margin-top: 3vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#actions * {
+  display: block;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+}
+
+#timers *, #actions * {
+  backdrop-filter: blur(0.5em);
+  -webkit-backdrop-filter: blur(0.5em);
+  border-radius: 0.25em;
+}
+
 /*# sourceMappingURL=style.css.map */
