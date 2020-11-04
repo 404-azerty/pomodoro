@@ -64,7 +64,7 @@ body button + button {
 }
 
 #actions {
-  margin-top: 3vh;
+  margin: 3vh 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -78,6 +78,10 @@ body button + button {
   backdrop-filter: blur(0.5em);
   -webkit-backdrop-filter: blur(0.5em);
   border-radius: 0.25em;
+}
+
+#counter {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
