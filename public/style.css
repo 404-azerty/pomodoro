@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Henny Penny", cursive;
+  letter-spacing: 3px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("../assets/images/background.png") fixed, #eee;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+body main {
+  padding: 0 5%;
+}
+body h1, body h2 {
+  text-align: center;
+}
+body h1 {
+  padding-top: 0.2em;
+}
+body h2 {
+  padding-bottom: 5%;
+}
+body section {
+  margin: 5% 0;
+}
+body ul {
+  list-style: none;
+}
+body button, body input {
+  font-family: "Henny Penny", cursive;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: calc(10px + 2vmin);
+}
+body button {
+  cursor: pointer;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+}
+body button + button {
+  margin-left: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
